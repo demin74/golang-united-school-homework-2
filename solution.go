@@ -26,14 +26,11 @@ func CalcSquare(sideLen float64, sidesNum CountSides) float64 {
 
 	if sidesNum==4 {
 	 return Qf
-	}
-	else if sidesNum==3 {
+	} else if sidesNum==3 {
 	 return Qf*(math.Sqrt(3)/4)
-	}
-	else if sidesNum==0 {
+	} else if sidesNum==0 {
 	 return Qf*math.Pi
-	}
-	else {
+	} else {
 	 return 0
 	}
 ///////////////////////////////////////////////////////////////////////////////	
