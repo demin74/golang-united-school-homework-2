@@ -24,13 +24,13 @@ func CalcSquare(sideLen float64, sidesNum CountSides) float64 {
 	Q:=sideLen*sideLen // квадрат числа (возведение в вторую степень - число степени два и т.д. и т.п.)
 	 Qf:=float64(Q)
 
-	if sidesNum=4 {
+	if sidesNum==4 {
 	 return Qf
 	}
-	else if sidesNum=3 {
+	else if sidesNum==3 {
 	 return Qf*(math.Sqrt(3)/4)
 	}
-	else if sidesNum=0 {
+	else if sidesNum==0 {
 	 return Qf*math.Pi
 	}
 	else {
